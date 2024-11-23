@@ -110,3 +110,20 @@ header h1 {
 .social .icons a:hover {
   color: #3b5998; /* Warna hover, bisa disesuaikan */
 }
+
+.gallery {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gallery .photos {
+  display: inline-flex;
+  gap: 10px; /* Jarak antar foto */
+}
+
+.gallery .photos img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
